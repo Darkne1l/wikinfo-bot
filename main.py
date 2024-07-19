@@ -10,7 +10,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
 from generate_img_with_sber import gen_img
 from googletrans import Translator
-
+token='7263853249:AAGnGGc6-67NJ4x2vHhIUZlrs7g7XAl4p3o'
 trans = Translator()
 session = {}
 load_dotenv(find_dotenv())
